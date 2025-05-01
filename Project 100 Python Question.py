@@ -51,7 +51,7 @@ print("B = ",b)
 string = input("Enter A String : ")
 print("Length of String is : ",len(string))
 
-                                                                               #________IF_ELSE_LOOPS_________#
+                                                                     #________IF_ELSE_LOOPS_________#
 
 # WAP to check whether a number is positive,negative,or zero.
 n=int(input("enter the number: "))
@@ -148,7 +148,7 @@ for i in range(1,51):
     if(i%2==0):
         print(i,end=" ")
 
-                                                              #_______________LISTS AND TUPLES__________________#
+                                                       #_______________LISTS AND TUPLES__________________#
 
 # WAP to find the max and min number in a list.
 list1=[3,4,5,2,5,6,78,56,99,345,343]
@@ -240,7 +240,7 @@ dict1 = dict(list1)
 print("List1 : ",list1)
 print("Dictionary : ",dict1)
 
-                                                                                           #_________STRING_____________#
+                                                                #_________STRING_____________#
 
 # WAP to count the number of vowels in a string.
 str1 = input("Enter A String/Sentence : ")
@@ -353,7 +353,7 @@ strList = str1.split(" ")
 print("String : ",str1)
 print("Number of Words in String : ",len(strList))
 
-                                                                        #______________FUNCTION__________________#
+                                                             #______________FUNCTION__________________#
 
 # WAF to check if a number is prime.
 def Prime(num):
@@ -465,7 +465,7 @@ list1 = [2,5,3,7,8,5,9,7,6,9]
 print("List : ",list1)
 print("Unique List : ",findUnique(list1))
 
-                                                             #__________________DICTIONARIES___________________#
+                                                         #__________________DICTIONARIES___________________#
 
 # WAP to create a dictionary from two lists.
 li1=['A','B','C','D','E','F']
@@ -520,7 +520,7 @@ if(dic.get(key)!=None):
 else:
     print("Key Not Found!")
 
-                                                                             #__________________SETS___________________#
+                                                               #__________________SETS___________________#
 
 #WAP to create a set and add elements to it.
 s={"mukul","ritika","atul","priyanshu"}
@@ -581,7 +581,7 @@ s2={"mukul",1,"mukku",2,3,4,"don"}
 s1.symmetric_difference_update(s2)
 print(s1)
 
-                                                                    #___________________FILE_HANDLING_________________#
+                                                               #___________________FILE_HANDLING_________________#
 
 #WAP to open a file and read its contents.
 file=open("file.txt","r")
@@ -644,7 +644,7 @@ data = file.read()
 print(data)
 file.close()
 
-                                                #______________LAMBDA | MAP | FILTER | REDUCE_____________#
+                                         #______________LAMBDA | MAP | FILTER | REDUCE_____________#
 
 cube=lambda n:n*n*n
 print(cube(6))
@@ -693,7 +693,7 @@ li=[x for x in range (1,101)]
 s=reduce(lambda a,b: a+b, li)
 print(s)
 
-                                                                      #___________ERROR_HANDLING____________#
+                                                           #___________ERROR_HANDLING____________#
 
 # WAP to handle division by zero.
 a=34
